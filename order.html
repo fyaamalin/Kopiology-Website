@@ -1,0 +1,1038 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>KOPIOLOGY</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Emblema+One&family=Poppins:wght@400;600&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-dark position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Header Start -->
+    <div class="container-fluid bg-dark px-0">
+        <div class="row gx-0 wow fadeIn" data-wow-delay="0.1s">
+    <div class="col-lg-3 bg-primary d-none d-lg-block">
+    <a href="index.html"
+        class="navbar-brand w-100 h-100 m-0 p-0 d-flex align-items-center justify-content-center">
+        <img src="img/logo.png" alt="Kopiology Cafe Logo"
+             class="img-fluid"
+             style="max-height: 130px;">
+    </a>
+</div>
+            <div class="col-lg-9">
+                <div class="row gx-0 d-none d-lg-flex bg-dark">
+                    <div class="col-6 px-5 text-start">
+                        <div class="h-100 d-inline-flex align-items-center py-2 me-4">
+                            <i class="fa fa-envelope text-primary me-2"></i>
+                            <p class="mb-0">kopiology7@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="col-6 px-5 text-end">    
+                        <div class="h-100 d-inline-flex align-items-center py-2">
+                            <i class="fa fa-calendar-alt text-primary me-2"></i>
+                        </div>
+                    </div>
+                </div>
+                <nav class="navbar navbar-expand-lg navbar-dark p-3 p-lg-0 px-lg-5" style="background: #89986D;">
+                    <a href="index.html" class="navbar-brand d-block d-lg-none">
+                        <h1 class="m-0 display-4 text-primary text-uppercase">Kopiology</h1>
+                    </a>
+                    <button type="button" class="navbar-toggler" data-bs-toggle="collapse"
+                        data-bs-target="#navbarCollapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                        <div class="navbar-nav mr-auto py-0">
+                            <a href="index.html" class="nav-item nav-link">Home</a>
+                            <a href="about.html" class="nav-item nav-link">About</a>
+                            <a href="menu.html" class="nav-item nav-link">Menu</a>
+                            <div class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                                <div class="dropdown-menu rounded-0 m-0">
+                                    <a href="blog.html" class="dropdown-item">Blog Post</a>
+                                    <a href="testimonial.html" class="dropdown-item">Reviews</a>
+                                </div>
+                            </div>
+                            <a href="order.html" class="nav-item nav-link active">Online Ordering</a>
+                            <a href="contact.html" class="nav-item nav-link">Contact</a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+
+
+    <!-- Hero Start -->
+    <div class="container-fluid p-5 mb-5 bg-dark text-secondary">
+        <div class="container wow fadeIn" data-wow-delay="0.1s">
+            <h1 class="display-1 text-secondary text-center mb-0">Online Ordering</h1>
+        </div>
+    </div>
+    <!-- Hero End -->
+
+
+<!-- Online Ordering Start -->
+<div class="container-fluid p-5">
+    <div class="mb-5 text-center wow fadeIn" data-wow-delay="0.1s">
+        <h5 class="section-title"><b>Order Now</b></h5>
+        <p class="text-muted">Choose your favourite foods and drink now!</p>
+    </div>
+
+<!-- Menu Category Navigation -->
+<div class="text-center mb-4">
+    <button class="btn btn-outline-primary m-1 category-btn active" data-category="all">All</button>
+    <button class="btn btn-outline-primary m-1 category-btn" data-category="coffee">Coffee</button>
+    <button class="btn btn-outline-primary m-1 category-btn" data-category="noncoffee">Non-Coffee</button>
+    <button class="btn btn-outline-primary m-1 category-btn" data-category="spaghetti">Spaghetti</button>
+    <button class="btn btn-outline-primary m-1 category-btn" data-category="western">Western</button>
+    <button class="btn btn-outline-primary m-1 category-btn" data-category="rice">Rice</button>
+</div>
+
+<!-- Checkout Navigation Bar with Search -->
+<div class="container-fluid sticky-top bg-white shadow-sm py-2 d-flex justify-content-center align-items-center gap-3">
+    <a href="#checkout" class="btn btn-outline-primary">
+        Go to Cart
+    </a>
+
+    <!-- Search Bar -->
+    <div style="position: relative; max-width: 300px; flex-grow:1;">
+        <input type="text" id="menuSearchCart" class="form-control ps-3 pe-5" placeholder="Search menu...">
+        <i class="fas fa-search" style="position: absolute; right: 12px; top: 50%; transform: translateY(-50%); color: #537D5D;"></i>
+    </div>
+</div>
+
+
+<!-- Menu Category Navigation End -->
+    <div class="row g-4">
+               <!-- Item 5 -->
+        <div class="col-lg-4 col-md-6 wow fadeIn" data-wow-delay="0.1s">
+            <div class="bg-light rounded text-center p-4 h-100">
+                <h4>Java Chips Frappe</h4>
+                <img class="img-fluid" src="img/java chip.webp" alt="">
+                <p class="text-muted">Espresso Iced Blended</p>
+                <h5 class="text-primary mb-3">RM 16.20</h5>
+                <input type="number" class="form-control mb-3 text-center mx-auto"
+                min="1" value="1" style="width: 250px;">
+                <button class="btn btn-primary w-100">Add to Cart</button>
+            </div>
+        </div>
+
+               <!-- Item 6 -->
+        <div class="col-lg-4 col-md-6 wow fadeIn" data-wow-delay="0.1s">
+            <div class="bg-light rounded text-center p-4 h-100">
+                <h4>Caffe Latte</h4>
+                <img class="img-fluid" src="img/caffe latte.webp" alt="">
+                <p class="text-muted">Espresso with fresh milk</p>
+                <h5 class="text-primary mb-3">RM 12.15</h5>
+                <input type="number" class="form-control mb-3 text-center mx-auto"
+                min="1" value="1" style="width: 250px;">
+                <button class="btn btn-primary w-100">Add to Cart</button>
+            </div>
+        </div>
+
+                       <!-- Item 6 -->
+        <div class="col-lg-4 col-md-6 wow fadeIn" data-wow-delay="0.1s">
+            <div class="bg-light rounded text-center p-4 h-100">
+                <h4>Vanilla Latte</h4>
+                <img class="img-fluid" src="img/vanilla latte.webp" alt="">
+                <p class="text-muted">Vanilla flavored espresso with milk</p>
+                <h5 class="text-primary mb-3">RM 14.85</h5>
+                <input type="number" class="form-control mb-3 text-center mx-auto"
+                min="1" value="1" style="width: 250px;">
+                <button class="btn btn-primary w-100">Add to Cart</button>
+            </div>
+        </div>
+
+                       <!-- Item 6 -->
+        <div class="col-lg-4 col-md-6 wow fadeIn" data-wow-delay="0.1s">
+            <div class="bg-light rounded text-center p-4 h-100">
+                <h4>Caramel Latte</h4>
+                <img class="img-fluid" src="img/caramel latte.webp" alt="">
+                <p class="text-muted">Caramel flavored espresso with milk</p>
+                <h5 class="text-primary mb-3">RM 14.85</h5>
+                <input type="number" class="form-control mb-3 text-center mx-auto"
+                min="1" value="1" style="width: 250px;">
+                <button class="btn btn-primary w-100">Add to Cart</button>
+            </div>
+        </div>
+
+                       <!-- Item 6 -->
+        <div class="col-lg-4 col-md-6 wow fadeIn" data-wow-delay="0.1s">
+            <div class="bg-light rounded text-center p-4 h-100">
+                <h4>Gula Melaka Latte</h4>
+                <img class="img-fluid" src="img/gula melaka latte.webp" alt="">
+                <p class="text-muted">Traditional gula melaka flavored espresso with milk</p>
+                <h5 class="text-primary mb-3">RM 14.85</h5>
+                <input type="number" class="form-control mb-3 text-center mx-auto"
+                min="1" value="1" style="width: 250px;">
+                <button class="btn btn-primary w-100">Add to Cart</button>
+            </div>
+        </div>
+
+                       <!-- Item 6 -->
+        <div class="col-lg-4 col-md-6 wow fadeIn" data-wow-delay="0.1s">
+            <div class="bg-light rounded text-center p-4 h-100">
+                <h4>Mocha</h4>
+                <img class="img-fluid" src="img/mocha.webp" alt="">
+                <p class="text-muted">Chocolate flavored caffe latte</p>
+                <h5 class="text-primary mb-3">RM 14.85</h5>
+                <input type="number" class="form-control mb-3 text-center mx-auto"
+                min="1" value="1" style="width: 250px;">
+                <button class="btn btn-primary w-100">Add to Cart</button>
+            </div>
+        </div>
+
+                       <!-- Item 6 -->
+        <div class="col-lg-4 col-md-6 wow fadeIn" data-wow-delay="0.1s">
+            <div class="bg-light rounded text-center p-4 h-100">
+                <h4>Americano</h4>
+                <img class="img-fluid" src="img/americano.webp" alt="">
+                <p class="text-muted">Black coffee</p>
+                <h5 class="text-primary mb-3">RM 9.45</h5>
+                <input type="number" class="form-control mb-3 text-center mx-auto"
+                min="1" value="1" style="width: 250px;">
+                <button class="btn btn-primary w-100">Add to Cart</button>
+            </div>
+        </div>
+
+                       <!-- Item 6 -->
+        <div class="col-lg-4 col-md-6 wow fadeIn" data-wow-delay="0.1s">
+            <div class="bg-light rounded text-center p-4 h-100">
+                <h4>Salted Caramel Frappe</h4>
+                <img class="img-fluid" src="img/salted caramel frappe.webp" alt="">
+                <p class="text-muted">Salted Caramel flavored coffee frappe</p>
+                <h5 class="text-primary mb-3">RM 14.85</h5>
+                <input type="number" class="form-control mb-3 text-center mx-auto"
+                min="1" value="1" style="width: 250px;">
+                <button class="btn btn-primary w-100">Add to Cart</button>
+            </div>
+        </div>
+
+                       <!-- Item 6 -->
+        <div class="col-lg-4 col-md-6 wow fadeIn" data-wow-delay="0.1s">
+            <div class="bg-light rounded text-center p-4 h-100">
+                <h4>Butterscotch Frappe</h4>
+                <img class="img-fluid" src="img/butterscotch frappe.webp" alt="">
+                <p class="text-muted">Butterscotch flavored coffee frappe</p>
+                <h5 class="text-primary mb-3">RM 14.85</h5>
+                <input type="number" class="form-control mb-3 text-center mx-auto"
+                min="1" value="1" style="width: 250px;">
+                <button class="btn btn-primary w-100">Add to Cart</button>
+            </div>
+        </div>
+
+        <!-- Item 6 -->
+        <div class="col-lg-4 col-md-6 wow fadeIn" data-wow-delay="0.1s">
+            <div class="bg-light rounded text-center p-4 h-100">
+                <h4>Chocolate</h4>
+                <img class="img-fluid" src="img/chocolate.webp" alt="">
+                <p class="text-muted">Premium chocolate</p>
+                <h5 class="text-primary mb-3">RM 13.50</h5>
+                <input type="number" class="form-control mb-3 text-center mx-auto"
+                min="1" value="1" style="width: 250px;">
+                <button class="btn btn-primary w-100">Add to Cart</button>
+            </div>
+        </div>
+
+                <!-- Item 6 -->
+        <div class="col-lg-4 col-md-6 wow fadeIn" data-wow-delay="0.1s">
+            <div class="bg-light rounded text-center p-4 h-100">
+                <h4>Iced Lemon Tea</h4>
+                <img class="img-fluid" src="img/iced lemon tea.webp" alt="">
+                <p class="text-muted">Brewed tea with a twist of lemon. Served with ice.</p>
+                <h5 class="text-primary mb-3">RM 9.45</h5>
+                <input type="number" class="form-control mb-3 text-center mx-auto"
+                min="1" value="1" style="width: 250px;">
+                <button class="btn btn-primary w-100">Add to Cart</button>
+            </div>
+        </div>
+
+                <!-- Item 6 -->
+        <div class="col-lg-4 col-md-6 wow fadeIn" data-wow-delay="0.1s">
+            <div class="bg-light rounded text-center p-4 h-100">
+                <h4>Chocolate</h4>
+                <img class="img-fluid" src="img/chocolate.webp" alt="">
+                <p class="text-muted">Premium chocolate</p>
+                <h5 class="text-primary mb-3">RM 13.50</h5>
+                <input type="number" class="form-control mb-3 text-center mx-auto"
+                min="1" value="1" style="width: 250px;">
+                <button class="btn btn-primary w-100">Add to Cart</button>
+            </div>
+        </div>
+
+                <!-- Item 6 -->
+        <div class="col-lg-4 col-md-6 wow fadeIn" data-wow-delay="0.1s">
+            <div class="bg-light rounded text-center p-4 h-100">
+                <h4>Iced Lemonade</h4>
+                <img class="img-fluid" src="img/iced lemonade.webp" alt="">
+                <p class="text-muted">Iced lemonade drink</p>
+                <h5 class="text-primary mb-3">RM 9.45</h5>
+                <input type="number" class="form-control mb-3 text-center mx-auto"
+                min="1" value="1" style="width: 250px;">
+                <button class="btn btn-primary w-100">Add to Cart</button>
+            </div>
+        </div>
+
+                <!-- Item 6 -->
+        <div class="col-lg-4 col-md-6 wow fadeIn" data-wow-delay="0.1s">
+            <div class="bg-light rounded text-center p-4 h-100">
+                <h4>Cheesecake Strawberry Smoothies</h4>
+                <img class="img-fluid" src="img/cheesecake strawberry smoothie.webp" alt="">
+                <p class="text-muted">Creamy cheesecake blended with refreshing strawberry smoothie</p>
+                <h5 class="text-primary mb-3">RM 16.20</h5>
+                <input type="number" class="form-control mb-3 text-center mx-auto"
+                min="1" value="1" style="width: 250px;">
+                <button class="btn btn-primary w-100">Add to Cart</button>
+            </div>
+        </div>
+
+                <!-- Item 6 -->
+        <div class="col-lg-4 col-md-6 wow fadeIn" data-wow-delay="0.1s">
+            <div class="bg-light rounded text-center p-4 h-100">
+                <h4>Chocolate Hazelnut Smoothies</h4>
+                <img class="img-fluid" src="img/chocolate hazelnut.webp" alt="">
+                <p class="text-muted">Creamy chocolate hazelnut smoothies blended to perfection for a rich, nutty indulgence.</p>
+                <h5 class="text-primary mb-3">RM 16.20</h5>
+                <input type="number" class="form-control mb-3 text-center mx-auto"
+                min="1" value="1" style="width: 250px;">
+                <button class="btn btn-primary w-100">Add to Cart</button>
+            </div>
+        </div>
+
+                <!-- Item 6 -->
+        <div class="col-lg-4 col-md-6 wow fadeIn" data-wow-delay="0.1s">
+            <div class="bg-light rounded text-center p-4 h-100">
+                <h4>Matcha Smoothies</h4>
+                <img class="img-fluid" src="img/matcha smoothies.webp" alt="">
+                <p class="text-muted">Creamy matcha blended with ice and a hint of sweetness for a refreshing treat.</p>
+                <h5 class="text-primary mb-3">RM 16.20</h5>
+                <input type="number" class="form-control mb-3 text-center mx-auto"
+                min="1" value="1" style="width: 250px;">
+                <button class="btn btn-primary w-100">Add to Cart</button>
+            </div>
+        </div>
+
+                <!-- Item 6 -->
+        <div class="col-lg-4 col-md-6 wow fadeIn" data-wow-delay="0.1s">
+            <div class="bg-light rounded text-center p-4 h-100">
+                <h4>Vanilla Smoothies</h4>
+                <img class="img-fluid" src="img/vanilla smoothie.webp" alt="">
+                <p class="text-muted">Creamy vanilla delight blended to perfection for a refreshing and sweet treat.</p>
+                <h5 class="text-primary mb-3">RM 13.50</h5>
+                <input type="number" class="form-control mb-3 text-center mx-auto"
+                min="1" value="1" style="width: 250px;">
+                <button class="btn btn-primary w-100">Add to Cart</button>
+            </div>
+        </div>
+
+                <!-- Item 6 -->
+        <div class="col-lg-4 col-md-6 wow fadeIn" data-wow-delay="0.1s">
+            <div class="bg-light rounded text-center p-4 h-100">
+                <h4>Vanilla Caramel Smoothies</h4>
+                <img class="img-fluid" src="img/vanilla caramel.webp" alt="">
+                <p class="text-muted">Creamy vanilla blended with rich caramel, creating a delightful and refreshing smoothie experience.</p>
+                <h5 class="text-primary mb-3">RM 16.20</h5>
+                <input type="number" class="form-control mb-3 text-center mx-auto"
+                min="1" value="1" style="width: 250px;">
+                <button class="btn btn-primary w-100">Add to Cart</button>
+            </div>
+        </div>
+
+                        <!-- Item 6 -->
+        <div class="col-lg-4 col-md-6 wow fadeIn" data-wow-delay="0.1s">
+            <div class="bg-light rounded text-center p-4 h-100">
+                <h4>Spaghetti Chicken Bolognese</h4>
+                <img class="img-fluid" src="img/bolognese.webp" alt="">
+                <p class="text-muted">Savory spaghetti with rich and hearty chicken Bolognese sauce.</p>
+                <h5 class="text-primary mb-3">RM 18.90</h5>
+                <input type="number" class="form-control mb-3 text-center mx-auto"
+                min="1" value="1" style="width: 250px;">
+                <button class="btn btn-primary w-100">Add to Cart</button>
+            </div>
+        </div>
+
+                        <!-- Item 6 -->
+        <div class="col-lg-4 col-md-6 wow fadeIn" data-wow-delay="0.1s">
+            <div class="bg-light rounded text-center p-4 h-100">
+                <h4>Spaghetti In Creamy White Sauce</h4>
+                <img class="img-fluid" src="img/carbonara.webp" alt="">
+                <p class="text-muted">Spaghetti served in a rich and creamy white sauce, offering a smooth and comforting flavor</p>
+                <h5 class="text-primary mb-3">RM 18.90</h5>
+                <input type="number" class="form-control mb-3 text-center mx-auto"
+                min="1" value="1" style="width: 250px;">
+                <button class="btn btn-primary w-100">Add to Cart</button>
+            </div>
+        </div>
+
+                        <!-- Item 6 -->
+        <div class="col-lg-4 col-md-6 wow fadeIn" data-wow-delay="0.1s">
+            <div class="bg-light rounded text-center p-4 h-100">
+                <h4>Spaghetti Shrimp Aglio Olio</h4>
+                <img class="img-fluid" src="img/shrimp aglio olio.webp" alt="">
+                <p class="text-muted">Spaghetti with succulent shrimp in a traditional Aglio Olio sauce, highlighting garlic and olive oil with a hint of heat</p>
+                <h5 class="text-primary mb-3">RM 20.25</h5>
+                <input type="number" class="form-control mb-3 text-center mx-auto"
+                min="1" value="1" style="width: 250px;">
+                <button class="btn btn-primary w-100">Add to Cart</button>
+            </div>
+        </div>
+
+                        <!-- Item 6 -->
+        <div class="col-lg-4 col-md-6 wow fadeIn" data-wow-delay="0.1s">
+            <div class="bg-light rounded text-center p-4 h-100">
+                <h4>Spaghetti Chicken Aglio Olio</h4>
+                <img class="img-fluid" src="img/chicken aglio olio.webp" alt="">
+                <p class="text-muted">Savory spaghetti tossed with tender chicken, garlic, chili flakes, and olive oil.</p>
+                <h5 class="text-primary mb-3">RM 18.90</h5>
+                <input type="number" class="form-control mb-3 text-center mx-auto"
+                min="1" value="1" style="width: 250px;">
+                <button class="btn btn-primary w-100">Add to Cart</button>
+            </div>
+        </div>
+
+                <!-- Item 6 -->
+        <div class="col-lg-4 col-md-6 wow fadeIn" data-wow-delay="0.1s">
+            <div class="bg-light rounded text-center p-4 h-100">
+                <h4>Cheesy Meatball</h4>
+                <img class="img-fluid" src="img/meatball.webp" alt="">
+                <p class="text-muted">7 pcs meatball, 1 slice bread, fries & brown sauce gravy</p>
+                <h5 class="text-primary mb-3">RM 18.90</h5>
+                <input type="number" class="form-control mb-3 text-center mx-auto"
+                min="1" value="1" style="width: 250px;">
+                <button class="btn btn-primary w-100">Add to Cart</button>
+            </div>
+        </div>
+
+                <!-- Item 6 -->
+        <div class="col-lg-4 col-md-6 wow fadeIn" data-wow-delay="0.1s">
+            <div class="bg-light rounded text-center p-4 h-100">
+                <h4>Crispy Chicken Chop</h4>
+                <img class="img-fluid" src="img/meatball.webp" alt="">
+                <p class="text-muted">Chicken chop with fries & salad</p>
+                <h5 class="text-primary mb-3">RM 21.60</h5>
+                <input type="number" class="form-control mb-3 text-center mx-auto"
+                min="1" value="1" style="width: 250px;">
+                <button class="btn btn-primary w-100">Add to Cart</button>
+            </div>
+        </div>
+
+                        <!-- Item 6 -->
+        <div class="col-lg-4 col-md-6 wow fadeIn" data-wow-delay="0.1s">
+            <div class="bg-light rounded text-center p-4 h-100">
+                <h4>Grilled Chicken Chop</h4>
+                <img class="img-fluid" src="img/grilled chicken chop.webp" alt="">
+                <p class="text-muted">Tender and flavourful chicken grilled to perfection</p>
+                <h5 class="text-primary mb-3">RM 22.95</h5>
+                <input type="number" class="form-control mb-3 text-center mx-auto"
+                min="1" value="1" style="width: 250px;">
+                <button class="btn btn-primary w-100">Add to Cart</button>
+            </div>
+        </div>
+
+                        <!-- Item 6 -->
+        <div class="col-lg-4 col-md-6 wow fadeIn" data-wow-delay="0.1s">
+            <div class="bg-light rounded text-center p-4 h-100">
+                <h4>Creamy Chicken Tomyum With Rice</h4>
+                <img class="img-fluid" src="img/creamy tomyum.webp" alt="">
+                <p class="text-muted">Chicken in a creamy tom yum sauce, served with rice</p>
+                <h5 class="text-primary mb-3">RM 21.90</h5>
+                <input type="number" class="form-control mb-3 text-center mx-auto"
+                min="1" value="1" style="width: 250px;">
+                <button class="btn btn-primary w-100">Add to Cart</button>
+            </div>
+        </div>
+
+                        <!-- Item 6 -->
+        <div class="col-lg-4 col-md-6 wow fadeIn" data-wow-delay="0.1s">
+            <div class="bg-light rounded text-center p-4 h-100">
+                <h4>Crispy Chicken Mango With Butter Rice</h4>
+                <img class="img-fluid" src="img/chicken mango.webp" alt="">
+                <p class="text-muted">Crispy chicken served with sweet mango and fluffy butter rice for a delightful meal.</p>
+                <h5 class="text-primary mb-3">RM 21.90</h5>
+                <input type="number" class="form-control mb-3 text-center mx-auto"
+                min="1" value="1" style="width: 250px;">
+                <button class="btn btn-primary w-100">Add to Cart</button>
+            </div>
+        </div>
+
+<!-- Online Ordering End -->
+
+<!-- Cart Summary Start -->
+<div class="container-fluid p-5 bg-light">
+    <div class="container-fluid p-5 bg-light" id="checkout">
+    <div class="mb-4 text-center">
+        <h2 class="display-5">Your Order</h2>
+        <p class="text-muted">Check your order before checkout.</p>
+    </div>
+
+    <div class="table-responsive">
+        <table class="table table-bordered text-center align-middle">
+            <thead class="table-dark">
+
+                <tr>
+                    <th>Item</th>
+                    <th>Price (RM)</th>
+                    <th>Quantity</th>
+                    <th>Total (RM)</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="cart-items">
+                <tr>
+                    <td colspan="4" class="text-muted">No items added</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="text-end mt-4">
+        <h4>Total Price: <span class="text-primary">RM <span id="cart-total">0.00</span></span></h4>
+        <button class="btn btn-primary btn-lg mt-3">Checkout</button>
+    </div>
+</div>
+
+<style>
+/* Button Action di cart */
+.table .btn-warning {
+    background-color: #D9534F; /* merah */
+    border-color: #D43F3A; /* border lebih gelap */
+    color: #ffffff; /* teks putih */
+    font-family: 'Times New Roman', Times, serif; /* font formal */
+    font-weight: bold;
+    transition: background-color 0.2s, transform 0.2s;
+}
+
+.table .btn-warning:hover {
+    background-color: #C9302C; /* merah gelap bila hover */
+    transform: scale(1.05);
+    color: #ffffff;
+}
+</style>
+<!-- Cart Summary End -->
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-secondary px-5">
+        <div class="row gx-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="col-lg-8 col-md-6">
+                <div class="row gx-5">
+                    <div class="col-lg-4 col-md-12 pt-5 mb-5">
+                        <h3 class="text-light mb-4">Get In Touch</h3>
+                        <div class="d-flex mb-2">
+                            <i class="bi bi-geo-alt text-primary me-2"></i>
+                            <p class="mb-0">No.7, Bangunan Baru Depan Pasar, Jalan Padang, 18500 Bandar Machang, Kelantan</p>
+                        </div>
+                        <div class="d-flex mb-2">
+                            <i class="bi bi-envelope-open text-primary me-2"></i>
+                            <p class="mb-0">kopiology7@gmail.com</p>
+                        </div>
+                        <div class="d-flex mb-2">
+                            <i class="bi bi-telephone text-primary me-2"></i>
+                            <p class="mb-0">+011 6306 3048</p>
+                        </div>
+
+                        <!----social media--->
+                        <div class="d-flex mt-4">
+                            <a class="btn btn-social me-2" href="https://www.instagram.com/kopiology.my/" target="_blank">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a class="btn btn-social me-2" href="https://www.tiktok.com/@kopiology.my" target="_blank">
+                                <i class="fab fa-tiktok"></i>
+                            </a>
+                            <a class="btn btn-social me-2" href="https://www.facebook.com/kopiology" target="_blank">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a class="btn btn-social" href="https://linktr.ee/kopiology.my" target="_blank">
+                                <i class="fas fa-link"></i>
+                            </a>
+                        </div>
+
+                        <style>
+                        .btn-social {
+                            display: inline-flex;
+                            align-items: center;
+                            justify-content: center;
+                            width: 40px;
+                            height: 40px;
+                            border-radius: 50%;
+                            background-color: #537D5D; /* warna hijau */
+                            color: #ffffff; /* ikon putih */
+                            text-decoration: none;
+                            font-size: 18px;
+                            transition: transform 0.2s;
+                        }
+
+                        .btn-social:hover {
+                            transform: scale(1.1);
+                            text-decoration: none;
+                            color: #ffffff;
+                        }
+                        </style>
+
+                    </div>
+                    <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
+                        <h3 class="text-light mb-4">Quick Links</h3>
+                        <div class="d-flex flex-column justify-content-start">
+                            <a class="text-secondary mb-2" href="#"><i
+                                    class="bi bi-arrow-right text-primary me-2"></i>Home</a>
+                            <a class="text-secondary mb-2" href="#"><i
+                                    class="bi bi-arrow-right text-primary me-2"></i>About Us</a>
+                            <a class="text-secondary mb-2" href="#"><i
+                                    class="bi bi-arrow-right text-primary me-2"></i>Food Menu</a>
+                            <a class="text-secondary mb-2" href="#"><i
+                                    class="bi bi-arrow-right text-primary me-2"></i>Latest Blog</a>
+                            <a class="text-secondary" href="#"><i
+                                    class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid py-4 py-lg-0 px-5" style="background: #111111;">
+        <div class="row gx-5">
+            <div class="col-lg-8">
+                <div class="py-lg-4 text-center">
+                    <p class="text-secondary mb-0">&copy; <a class="text-light fw-bold" href="#">Kopiology Cafe & Coffee</a>. For educational purpose only. All Rights Reserved.</p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="py-lg-4 text-center credit">
+                    <!--/*** The author’s attribution link must remain intact in the template. ***/-->
+                    <!--/*** If you wish to remove this credit link, please purchase the Pro Version . ***/-->
+                    <p class="text-light mb-0">Designed by <a class="text-light fw-bold" href="https://htmlcodex.com">HTML Codex</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-dark py-3 fs-4 back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+<button id="muteBtn" class="btn position-fixed audio-btn">🔊</button>
+
+<audio id="bgAudio" loop>
+    <source src="audio/kota ini takkan sama tanpamu.mp3" type="audio/mpeg">
+</audio>
+
+<!-- Image Preview Modal -->
+<div class="modal fade" id="imagePreviewModal" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content bg-transparent border-0">
+            <div class="modal-body text-center">
+                <img id="previewImage" src="" class="img-fluid rounded shadow">
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+.bg-light img {
+    transition: transform 0.25s ease;
+}
+
+.bg-light img:hover {
+    transform: scale(1.05);
+}
+</style>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <script>
+let cart = [];
+
+document.querySelectorAll('.btn-primary').forEach(button => {
+    if (button.innerText === 'Add to Cart') {
+        button.addEventListener('click', () => {
+            const card = button.closest('.bg-light');
+            const name = card.querySelector('h4').innerText;
+            const price = parseFloat(card.querySelector('h5').innerText.replace('RM', ''));
+            const quantity = parseInt(card.querySelector('input').value);
+
+            const existingItem = cart.find(item => item.name === name);
+
+            if (existingItem) {
+                existingItem.quantity += quantity;
+            } else {
+                cart.push({ name, price, quantity });
+            }
+
+            updateCart();
+        });
+    }
+});
+
+function updateCart() {
+    const cartTable = document.getElementById('cart-items');
+    cartTable.innerHTML = '';
+
+    let totalPrice = 0;
+
+    cart.forEach((item, index) => {
+        const itemTotal = item.price * item.quantity;
+        totalPrice += itemTotal;
+
+        cartTable.innerHTML += `
+            <tr>
+                <td>${item.name}</td>
+                <td>${item.price.toFixed(2)}</td>
+                <td>${item.quantity}</td>
+                <td>${itemTotal.toFixed(2)}</td>
+                <td>
+                    <button class="btn btn-warning btn-sm" onclick="decreaseItem(${index})">
+                        -1
+                    </button>
+                </td>
+            </tr>
+        `;
+    });
+
+    if (cart.length === 0) {
+        cartTable.innerHTML = `
+            <tr>
+                <td colspan="5" class="text-muted">No items added</td>
+            </tr>
+        `;
+    }
+
+    document.getElementById('cart-total').innerText = totalPrice.toFixed(2);
+}
+
+// KURANGKAN 1 QUANTITY SAHAJA
+function decreaseItem(index) {
+    cart[index].quantity -= 1;
+
+    if (cart[index].quantity <= 0) {
+        cart.splice(index, 1);
+    }
+
+    updateCart();
+}
+</script>
+
+    <script>
+    function removeItem(index) {
+        cart.splice(index, 1);
+        updateCart();
+    }
+    </script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+
+    <script>
+const categoryMap = {
+    coffee: ['latte', 'americano', 'mocha', 'coffee', 'frappe'],
+    noncoffee: ['chocolate', 'lemon', 'smoothie'],
+    spaghetti: ['spaghetti'],
+    western: ['chicken chop', 'meatball'],
+    rice: ['rice'],
+    noodle: ['aglio', 'noodle']
+};
+
+document.querySelectorAll('.category-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+        document.querySelectorAll('.category-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+
+        const category = btn.dataset.category;
+        const items = document.querySelectorAll('.col-lg-4.col-md-6');
+
+        items.forEach(item => {
+            const title = item.querySelector('h4').innerText.toLowerCase();
+
+            if (category === 'all') {
+                item.style.display = 'block';
+                return;
+            }
+
+            const keywords = categoryMap[category];
+            item.style.display = keywords.some(word => title.includes(word)) ? 'block' : 'none';
+        });
+    });
+});
+</script>
+
+<script>
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href'))
+            .scrollIntoView({ behavior: 'smooth' });
+    });
+});
+</script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+    const checkoutBtn = document.querySelector("button.btn-lg");
+
+    if (!checkoutBtn) return;
+
+    checkoutBtn.addEventListener("click", function (e) {
+        e.preventDefault();
+
+        if (cart.length === 0) {
+            showPopup("Your cart is empty!", "#a94442");
+            return;
+        }
+
+        showPopup("Checkout successful! Thank you for your order. Please be patient and wait for your order ><", "#2F5D50");
+
+        // Optional: clear cart selepas checkout
+        cart = [];
+        updateCart();
+    });
+
+    function showPopup(message, bgColor) {
+        const popup = document.createElement("div");
+        popup.innerHTML = `
+            <strong>${message}</strong>
+            <div style="font-size:13px; margin-top:6px;">Sincerely, Kopiology Cafe</div>
+        `;
+
+        popup.style.position = "fixed";
+        popup.style.top = "50%";
+        popup.style.left = "50%";
+        popup.style.transform = "translate(-50%, -50%)";
+        popup.style.background = bgColor;
+        popup.style.color = "#fff";
+        popup.style.padding = "25px 35px";
+        popup.style.borderRadius = "10px";
+        popup.style.textAlign = "center";
+        popup.style.boxShadow = "0 10px 30px rgba(0,0,0,0.4)";
+        popup.style.zIndex = "9999";
+        popup.style.fontSize = "16px";
+        popup.style.opacity = "0";
+        popup.style.transition = "opacity 0.3s ease";
+
+        document.body.appendChild(popup);
+
+        setTimeout(() => popup.style.opacity = "1", 50);
+
+        setTimeout(() => {
+            popup.style.opacity = "0";
+            setTimeout(() => popup.remove(), 300);
+        }, 3000);
+    }
+});
+</script>
+
+<style>
+.audio-btn {
+    bottom: 30px;
+    left: 30px;
+    z-index: 999;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: #537D5D;
+    color: #ffffff;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.audio-btn:hover {
+    background-color: #3f5f48;
+    color: #ffffff;
+}
+
+</style>
+
+<script>
+const audio = document.getElementById("bgAudio");
+const muteBtn = document.getElementById("muteBtn");
+
+let hasInteracted = false;
+const targetVolume = 0.3; // 30%
+const fadeDuration = 2000; // 2 saat
+const fadeSteps = 40; // step smooth
+const stepTime = fadeDuration / fadeSteps;
+const volumeStep = targetVolume / fadeSteps;
+
+// Fade-in function
+function fadeInAudio() {
+    let currentVolume = 0;
+    audio.volume = 0;
+    audio.muted = false;
+
+    const fade = setInterval(() => {
+        currentVolume += volumeStep;
+        if (currentVolume >= targetVolume) {
+            audio.volume = targetVolume;
+            clearInterval(fade);
+        } else {
+            audio.volume = currentVolume;
+        }
+    }, stepTime);
+}
+
+// Mulakan audio selepas interaksi pertama (click / scroll)
+function enableAudio() {
+    if (!hasInteracted) {
+        audio.play().catch(() => {}); // autoplay catch
+        fadeInAudio();
+        muteBtn.textContent = "🔊";
+        hasInteracted = true;
+    }
+}
+
+document.addEventListener("click", enableAudio);
+document.addEventListener("scroll", enableAudio);
+
+// Button Mute / Unmute
+muteBtn.addEventListener("click", (e) => {
+    e.stopPropagation();
+    if (audio.muted || audio.volume === 0) {
+        audio.muted = false;
+        audio.volume = targetVolume;
+        muteBtn.textContent = "🔊";
+    } else {
+        audio.muted = true;
+        muteBtn.textContent = "🔇";
+    }
+});
+</script>
+
+<script>
+    function updateDateTime() {
+        const now = new Date();
+
+        const day = now.getDate();
+        const month = now.toLocaleString('en-US', { month: 'long' });
+        const year = now.getFullYear();
+        const weekday = now.toLocaleString('en-US', { weekday: 'long' });
+
+        const time = now.toLocaleString('en-GB', {
+            hour: '2-digit',
+            minute: '2-digit',
+            second: '2-digit',
+            hour12: false
+        });
+
+        const formatted = `${day} ${month} ${year}, ${weekday} | ${time}`;
+
+        // Cari ikon phone
+        const calendarIcons = document.querySelectorAll('.fa-calendar-alt');
+
+        calendarIcons.forEach(icon => {
+            const parent = icon.parentElement;
+
+            let span = parent.querySelector('.current-datetime');
+            if (!span) {
+                span = document.createElement('span');
+                span.className = 'current-datetime';
+                span.style.marginLeft = '15px';
+                span.style.fontSize = '0.9rem';
+                span.style.fontWeight = '500';
+                span.style.color = '#537D5D'; // hijau Kopiology
+                parent.appendChild(span);
+            }
+
+            span.textContent = formatted;
+        });
+    }
+
+    updateDateTime();
+    setInterval(updateDateTime, 1000); // live setiap saat
+</script>
+
+<script>
+const searchInputCart = document.getElementById('menuSearchCart');
+
+function filterItems() {
+    const query = searchInputCart.value.toLowerCase();
+    const items = document.querySelectorAll('.col-lg-4.col-md-6');
+
+    // Dapatkan tab kategori aktif
+    const activeCategoryBtn = document.querySelector('.category-btn.active');
+    const category = activeCategoryBtn ? activeCategoryBtn.dataset.category : 'all';
+    const keywords = categoryMap[category] || [];
+
+    items.forEach(item => {
+        const title = item.querySelector('h4').innerText.toLowerCase();
+
+        // Filter ikut kategori + search
+        const showByCategory = (category === 'all') || keywords.some(word => title.includes(word));
+        const showBySearch = title.includes(query);
+
+        item.style.display = (showByCategory && showBySearch) ? 'block' : 'none';
+    });
+}
+
+// Update search bila taip
+searchInputCart.addEventListener('input', filterItems);
+
+// Update search bila tekan Enter
+searchInputCart.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') {
+        filterItems();
+    }
+});
+</script>
+
+<script>
+document.querySelectorAll('.bg-light img').forEach(img => {
+    img.style.cursor = 'pointer';
+
+    img.addEventListener('click', () => {
+        const modal = new bootstrap.Modal(
+            document.getElementById('imagePreviewModal')
+        );
+
+        document.getElementById('previewImage').src = img.src;
+        modal.show();
+    });
+});
+</script>
+
+
+</body>
+
+</html>
